@@ -1,8 +1,7 @@
 name: Deploy to digital ocean
 
 on:
-  pull_request:
-    branches: [master]
+  release:
 
 jobs:
   test:
